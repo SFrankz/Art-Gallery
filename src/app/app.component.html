@@ -1,0 +1,30 @@
+
+ <div *ngIf="!selectedPicture">
+  <div class="container">
+    <div class="search-bar">
+      <input type="text" placeholder="What are you looking for" [(ngModel)]="searchTerm">
+    </div>
+    <div class="gallery">
+      <div class="row">
+        <div class="col-3" *ngFor="let picture of filteredPictures">
+          <app-picture-card [picture]="picture" (pictureSelected)="selectPicture($event)"></app-picture-card>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div *ngIf="selectedPicture">
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <app-picture-card [picture]="selectedPicture"></app-picture-card>
+      </div>
+      <div class="col">
+        <div class="chat-container">
+          <app-picture-discussion [picture]="selectedPicture"></app-picture-discussion>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,33 @@
+.chat-interface {
+  position: fixed;
+  right: 20px;
+  top: 20px;
+  width: 300px;
+  background-color: #f1f1f1;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.chat-interface input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 8px;
+  border: none;
+  border-radius: 4px;
+}
+
+.chat-interface button {
+  width: 100%;
+  padding: 8px;
+  margin-top: 8px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.chat-interface button:hover {
+  background-color: #45a049;
+}

@@ -1,0 +1,58 @@
+[
+  {
+    "id": "1",
+    "name": "Flower",
+    "artist": "Leonardo da Vinci",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "image": "assets/images/flower.jpg"
+  },
+  {
+    "id": "2",
+    "name": "Tower",
+    "artist": "Pablo Picasso",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "image": "assets/images/tower.jpg"
+  },
+  {
+    "id": "3",
+    "name": "Burger",
+    "artist": "Vincent van Gogh",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "image": "assets/images/burger.jpg"
+  },
+  {
+    "id": "4",
+    "name": "Car",
+    "artist": "Michelangelo",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "image": "assets/images/car.jpg"
+  },
+  {
+    "id": "5",
+    "name": "Computer",
+    "artist": "Claude Monet",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "image": "assets/images/comp.jpg"
+  },
+  {
+    "id": "6",
+    "name": "iPhone",
+    "artist": "Rembrandt",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "image": "assets/images/phone.jpg"
+  },
+  {
+    "id": "7",
+    "name": "Plane",
+    "artist": "Raphael",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "image": "assets/images/plane.jpg"
+  },
+  {
+    "id": "8",
+    "name": "Shirt",
+    "artist": "Johannes Vermeer",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "image": "assets/images/shirt.jpg"
+  }
+]

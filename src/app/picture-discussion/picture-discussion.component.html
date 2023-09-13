@@ -1,0 +1,15 @@
+
+<div class="container">
+  <div class="picture-card">
+    <img [src]="picture.image" class="picture-image" alt="Artwork">
+    <h3>{{ picture.name }}</h3>
+    <p>{{ "By " + picture.artist }}</p>
+    <p>{{ picture.description }}</p>
+  </div>
+
+  <div class="chat-interface">
+    <div *ngFor="let message of messages">{{ message }}</div>
+    <input [(ngModel)]="newMessage" placeholder="Type your message" (keydown.enter)="sendMessage()">
+    <button (click)="sendMessage()">Send</button>
+  </div>
+</div>

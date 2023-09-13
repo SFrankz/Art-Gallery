@@ -1,0 +1,16 @@
+
+<div class="card picture-card"
+  (click)="selectPicture()"
+>
+  <img [src]="picture.image" class="picture-image" alt="Artwork"
+    (mouseover)="onImageMouseover($event)" (mouseout)="onImageMouseout()" />
+  <div class="card-content">
+    <h3>{{ picture.name }}</h3>
+    <p >{{ "By " + picture.artist }}</p>
+    <p >{{ picture.description }}</p>
+    <div class="image-info" *ngIf=" imageResolution && imageSize">
+      <p>Resolution: {{ imageResolution }}</p>
+      <p>Size: {{ imageSize }}</p>
+    </div>
+  </div>
+</div>
